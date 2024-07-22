@@ -1,5 +1,6 @@
 ﻿using Assignment_OOP_5._3DPoint;
-
+using Assignment_OOP_5;
+using Assignment_OOP_5.maths;
 namespace Assignment_OOP_5
 {
     internal class Program
@@ -63,6 +64,11 @@ namespace Assignment_OOP_5
                     Console.WriteLine("Invalid input for point P1.");
                 }*/
             #endregion
+            
+            Console.WriteLine($"Add: {Maths.Add(10, 5)}");
+            Console.WriteLine($"Subtract: {Maths.Subtract(10, 5)}");
+            Console.WriteLine($"Multiply: {Maths.Multiply(10, 5)}");
+            Console.WriteLine($"Divide: {Maths.Divide(10, 5)}");
         }
     }
 }
